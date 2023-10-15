@@ -1,0 +1,53 @@
+﻿<process name="ExerciseOne" version="1.0" bpversion="7.1.2.3518" narrative="" byrefcollection="true" preferredid="7398ba7a-742f-4b97-8d69-2137671a64bd">
+  <view>
+    <camerax>0</camerax>
+    <cameray>-21</cameray>
+    <zoom version="2">1.875</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="61fc5e5c-4471-44b0-8d56-8b33cae1f6f4" name="End" type="End">
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="097bf560-9973-43e6-bc50-fa3cdf2ed9e2" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="03d60908-bc21-46dc-8a11-e5f25fd0a249" name="Start" type="Start">
+    <display x="15" y="-105" />
+    <onsuccess>61fc5e5c-4471-44b0-8d56-8b33cae1f6f4</onsuccess>
+  </stage>
+  <stage stageid="67212b7a-fb1a-4a93-9581-8c62e62cf7ad" name="First name" type="Data">
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-165" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">     mi Ke     </initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1cf39fa1-ae1d-467a-915f-6acc2e276b82" name="Last name" type="Data">
+    <loginhibit onsuccess="true" />
+    <display x="105" y="-165" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">     s M   i th     </initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="05563690-1122-48af-9f2d-aeb9ad06d253" name="Full name" type="Data">
+    <loginhibit onsuccess="true" />
+    <display x="240" y="-165" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="41de0f38-e778-45b9-beb1-dc1e856fa16c" name="Note1" type="Note">
+    <narrative>EXERCISE 1
+
+First name = "     mi Ke     "
+
+Last name = "     s M   i th     "
+
+Full name should be "MIKE SMITH"</narrative>
+    <display x="-210" y="45" w="180" h="120" />
+  </stage>
+</process>
